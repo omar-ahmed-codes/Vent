@@ -31,8 +31,6 @@ It uses **on-device AI** to analyze your emotions in real-time as you type, chan
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="Screenshots/screenshot_1.png" width="200" alt="App Screenshot 1" />
-  &nbsp;
   <img src="Screenshots/screenshot_2.png" width="200" alt="App Screenshot 2" />
   &nbsp;
   <img src="Screenshots/screenshot_3.png" width="200" alt="App Screenshot 3" />
