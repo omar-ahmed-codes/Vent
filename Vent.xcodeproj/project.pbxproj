@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E156A1DD80394CCF733C1A /* SentimentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B0A64EB1AE47036E2292E /* SentimentService.swift */; };
+		0891C0707ED8944355D0180F /* WeeklySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B716EC3988BA8359B2223308 /* WeeklySummaryView.swift */; };
+		0A2418E1CEFB7928EA260646 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D447D5998846443FDA1B5 /* HistoryView.swift */; };
+		101A79102999B56328CDBC95 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17C6907733C9547DCE89A9 /* SampleData.swift */; };
+		205A77366A2F1A4C2ED7CCB2 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91233049EC1B2AFB46450572 /* JournalView.swift */; };
+		296F9C829FA13A58582EB041 /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B32104B3E8F3C0CC12DEE9A /* DateFormatters.swift */; };
+		3AE6E48ADEB4A583E4B7D738 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD25DF15DBA677F5BAEB078 /* JournalEntry.swift */; };
+		3B00098429609AD7EB8838FE /* SentimentJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE5EC5E4D240B4ECF1BC8C /* SentimentJournalApp.swift */; };
+		3B2069FA6268DBB1B83ADA59 /* SentimentIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89360F1800D83F8ECE9876 /* SentimentIndicator.swift */; };
+		3FAF63B29EB5FDFAEFA218DF /* MoodRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C1F0711434CBEBC561847 /* MoodRecord.swift */; };
+		43D2C2D2E4B40EEC6BBBF85D /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEAB8D423DDE1FF408D3E2 /* EntryDetailView.swift */; };
+		47D3EFF3827D18262654CA62 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DF5A4CC04CA273E028995 /* InsightsView.swift */; };
+		4E679B0CB777522321910819 /* InsightCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77518ADC9AE722C6AC2DA49 /* InsightCardView.swift */; };
+		715F4DA04A49CC8DC1EF87A6 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883AC90C86CAC5AB68CCDA3 /* HistoryViewModel.swift */; };
+		76B1B7B60DF804DEC48BF50A /* MoodCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B83A4A4E9A500C056DCF42F /* MoodCheckIn.swift */; };
+		7E72B4A547A53D991BA1085B /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F2B6397ADCDB3A108FE65 /* JournalViewModel.swift */; };
+		83381D0101512414A5E96FB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96529C8470D9BD25D68D18C /* Preview Assets.xcassets */; };
+		8AC27D7EBB55253748C048A8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCBE789515E3DF113A47A9 /* MainTabView.swift */; };
+		8F16098EF070F1E3A5D9E77D /* MoodChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D4C7F705D762F428C1BF3 /* MoodChartView.swift */; };
+		A3C3013733071E393806CBDF /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D1F8CE296641C62312153A /* DesignSystem.swift */; };
+		B388040CD5E76C1F6D3646DC /* InsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB343F187D25A6EE749478D /* InsightsViewModel.swift */; };
+		B6CCDA75C8D470FFAD1EA4BB /* MoodCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E04029821D43A241C6011 /* MoodCheckInView.swift */; };
+		C145964719636C0E4954EC68 /* InsightsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBA343B677D45F53B4884EE /* InsightsService.swift */; };
+		CC714699132C1449BD6D5E09 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3470D1CA7B1F5697DACAB12 /* PersistenceService.swift */; };
+		CCD616D9198943A6625AB300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944E613BD5EB15790557CC2B /* Assets.xcassets */; };
+		E22D9A92AD9E931CFDC6D023 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2180F89E0AF8B597C1F361 /* SettingsView.swift */; };
+		E6A0D344EF9DB55FB845571E /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44C990526AF553FC35F5D5 /* HapticManager.swift */; };
+		EB14D1F9C814547AE68E7383 /* MoodBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940976A54B599895FA761C5 /* MoodBackground.swift */; };
+		F13F6991D6905B3BAE70B38E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6809F6B1675E9D02866E0B /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C7B0A64EB1AE47036E2292E /* SentimentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentService.swift; sourceTree = "<group>"; };
+		12D1F8CE296641C62312153A /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		1883AC90C86CAC5AB68CCDA3 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		1E7C1F0711434CBEBC561847 /* MoodRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodRecord.swift; sourceTree = "<group>"; };
+		2B32104B3E8F3C0CC12DEE9A /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		2CD25DF15DBA677F5BAEB078 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		2EDE5EC5E4D240B4ECF1BC8C /* SentimentJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentJournalApp.swift; sourceTree = "<group>"; };
+		3A44C990526AF553FC35F5D5 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		4940976A54B599895FA761C5 /* MoodBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBackground.swift; sourceTree = "<group>"; };
+		4ACCBE789515E3DF113A47A9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4B83A4A4E9A500C056DCF42F /* MoodCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCheckIn.swift; sourceTree = "<group>"; };
+		5D17C6907733C9547DCE89A9 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		6F6809F6B1675E9D02866E0B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7C89360F1800D83F8ECE9876 /* SentimentIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentIndicator.swift; sourceTree = "<group>"; };
+		91233049EC1B2AFB46450572 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		944E613BD5EB15790557CC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		958DF5A4CC04CA273E028995 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		A77518ADC9AE722C6AC2DA49 /* InsightCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCardView.swift; sourceTree = "<group>"; };
+		A8BEAB8D423DDE1FF408D3E2 /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		ACFE230EAD0AB3A841BC5874 /* Vent.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Vent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBA343B677D45F53B4884EE /* InsightsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsService.swift; sourceTree = "<group>"; };
+		AE2180F89E0AF8B597C1F361 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B716EC3988BA8359B2223308 /* WeeklySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummaryView.swift; sourceTree = "<group>"; };
+		C3470D1CA7B1F5697DACAB12 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		CC0D4C7F705D762F428C1BF3 /* MoodChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChartView.swift; sourceTree = "<group>"; };
+		CE7F2B6397ADCDB3A108FE65 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		D16D447D5998846443FDA1B5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		D96529C8470D9BD25D68D18C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E69E04029821D43A241C6011 /* MoodCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCheckInView.swift; sourceTree = "<group>"; };
+		EDB343F187D25A6EE749478D /* InsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19200012BE0ABD86BC6426B1 /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				E69E04029821D43A241C6011 /* MoodCheckInView.swift */,
+			);
+			path = CheckIn;
+			sourceTree = "<group>";
+		};
+		20BA2E6BD957FEC52D6E363F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AE2180F89E0AF8B597C1F361 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		24A6DD61653202045CC258F5 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				A8BEAB8D423DDE1FF408D3E2 /* EntryDetailView.swift */,
+				D16D447D5998846443FDA1B5 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		30F41115443F2AD9EE0AE68A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2B32104B3E8F3C0CC12DEE9A /* DateFormatters.swift */,
+				12D1F8CE296641C62312153A /* DesignSystem.swift */,
+				6F6809F6B1675E9D02866E0B /* Extensions.swift */,
+				3A44C990526AF553FC35F5D5 /* HapticManager.swift */,
+				5D17C6907733C9547DCE89A9 /* SampleData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		54DE3284586CE2EA18EB5AED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D96529C8470D9BD25D68D18C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DB0AFAD0A6A82335BBD169C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCBE789515E3DF113A47A9 /* MainTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6037ADCFD3438E45224465FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19200012BE0ABD86BC6426B1 /* CheckIn */,
+				24A6DD61653202045CC258F5 /* History */,
+				DF0A0512C49738EDD213F465 /* Insights */,
+				96872E25F94ED5AADBFB68D2 /* Journal */,
+				5DB0AFAD0A6A82335BBD169C /* Navigation */,
+				20BA2E6BD957FEC52D6E363F /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96872E25F94ED5AADBFB68D2 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				91233049EC1B2AFB46450572 /* JournalView.swift */,
+				4940976A54B599895FA761C5 /* MoodBackground.swift */,
+				7C89360F1800D83F8ECE9876 /* SentimentIndicator.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		A15193F7581B62FB4F516E30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CD25DF15DBA677F5BAEB078 /* JournalEntry.swift */,
+				4B83A4A4E9A500C056DCF42F /* MoodCheckIn.swift */,
+				1E7C1F0711434CBEBC561847 /* MoodRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3009078CC05E65C792BC711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFE230EAD0AB3A841BC5874 /* Vent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C870A6D3BAB8DAD469118748 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1883AC90C86CAC5AB68CCDA3 /* HistoryViewModel.swift */,
+				EDB343F187D25A6EE749478D /* InsightsViewModel.swift */,
+				CE7F2B6397ADCDB3A108FE65 /* JournalViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D7BBC3CF27AED2234E55A9FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA343B677D45F53B4884EE /* InsightsService.swift */,
+				C3470D1CA7B1F5697DACAB12 /* PersistenceService.swift */,
+				0C7B0A64EB1AE47036E2292E /* SentimentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DF0A0512C49738EDD213F465 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				A77518ADC9AE722C6AC2DA49 /* InsightCardView.swift */,
+				958DF5A4CC04CA273E028995 /* InsightsView.swift */,
+				CC0D4C7F705D762F428C1BF3 /* MoodChartView.swift */,
+				B716EC3988BA8359B2223308 /* WeeklySummaryView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		E5940187AC9204562AE5B356 = {
+			isa = PBXGroup;
+			children = (
+				FA4E3AC2AAA3754EDFEB4EDF /* SentimentJournal */,
+				A3009078CC05E65C792BC711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4E3AC2AAA3754EDFEB4EDF /* SentimentJournal */ = {
+			isa = PBXGroup;
+			children = (
+				944E613BD5EB15790557CC2B /* Assets.xcassets */,
+				2EDE5EC5E4D240B4ECF1BC8C /* SentimentJournalApp.swift */,
+				A15193F7581B62FB4F516E30 /* Models */,
+				54DE3284586CE2EA18EB5AED /* Preview Content */,
+				D7BBC3CF27AED2234E55A9FC /* Services */,
+				30F41115443F2AD9EE0AE68A /* Utilities */,
+				C870A6D3BAB8DAD469118748 /* ViewModels */,
+				6037ADCFD3438E45224465FE /* Views */,
+			);
+			path = SentimentJournal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DDC71BEB3BFE4E3217A4B90 /* Vent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D59BA0200CC8547FCF98E7C /* Build configuration list for PBXNativeTarget "Vent" */;
+			buildPhases = (
+				9C2DD4D81414DB040A8841A4 /* Sources */,
+				484D8B9F98086D92BBB9FC6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vent;
+			packageProductDependencies = (
+			);
+			productName = Vent;
+			productReference = ACFE230EAD0AB3A841BC5874 /* Vent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93EC732F0AD5EF32E13E13E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 2CF6D425492FF57294EE607C /* Build configuration list for PBXProject "Vent" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E5940187AC9204562AE5B356;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3009078CC05E65C792BC711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DDC71BEB3BFE4E3217A4B90 /* Vent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484D8B9F98086D92BBB9FC6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD616D9198943A6625AB300 /* Assets.xcassets in Resources */,
+				83381D0101512414A5E96FB3 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C2DD4D81414DB040A8841A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296F9C829FA13A58582EB041 /* DateFormatters.swift in Sources */,
+				A3C3013733071E393806CBDF /* DesignSystem.swift in Sources */,
+				43D2C2D2E4B40EEC6BBBF85D /* EntryDetailView.swift in Sources */,
+				F13F6991D6905B3BAE70B38E /* Extensions.swift in Sources */,
+				E6A0D344EF9DB55FB845571E /* HapticManager.swift in Sources */,
+				0A2418E1CEFB7928EA260646 /* HistoryView.swift in Sources */,
+				715F4DA04A49CC8DC1EF87A6 /* HistoryViewModel.swift in Sources */,
+				4E679B0CB777522321910819 /* InsightCardView.swift in Sources */,
+				C145964719636C0E4954EC68 /* InsightsService.swift in Sources */,
+				47D3EFF3827D18262654CA62 /* InsightsView.swift in Sources */,
+				B388040CD5E76C1F6D3646DC /* InsightsViewModel.swift in Sources */,
+				3AE6E48ADEB4A583E4B7D738 /* JournalEntry.swift in Sources */,
+				205A77366A2F1A4C2ED7CCB2 /* JournalView.swift in Sources */,
+				7E72B4A547A53D991BA1085B /* JournalViewModel.swift in Sources */,
+				8AC27D7EBB55253748C048A8 /* MainTabView.swift in Sources */,
+				EB14D1F9C814547AE68E7383 /* MoodBackground.swift in Sources */,
+				8F16098EF070F1E3A5D9E77D /* MoodChartView.swift in Sources */,
+				76B1B7B60DF804DEC48BF50A /* MoodCheckIn.swift in Sources */,
+				B6CCDA75C8D470FFAD1EA4BB /* MoodCheckInView.swift in Sources */,
+				3FAF63B29EB5FDFAEFA218DF /* MoodRecord.swift in Sources */,
+				CC714699132C1449BD6D5E09 /* PersistenceService.swift in Sources */,
+				101A79102999B56328CDBC95 /* SampleData.swift in Sources */,
+				3B2069FA6268DBB1B83ADA59 /* SentimentIndicator.swift in Sources */,
+				3B00098429609AD7EB8838FE /* SentimentJournalApp.swift in Sources */,
+				00E156A1DD80394CCF733C1A /* SentimentService.swift in Sources */,
+				E22D9A92AD9E931CFDC6D023 /* SettingsView.swift in Sources */,
+				0891C0707ED8944355D0180F /* WeeklySummaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26356C218A52F4B529665FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		B672A7DD5781FD0361D8B491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_ASSET_PATHS = "\"SentimentJournal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Vent;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vent.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C922A8C7F45A58412716DFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_ASSET_PATHS = "\"SentimentJournal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Vent;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vent.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAAE1E0E1B7A5AED167199F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF6D425492FF57294EE607C /* Build configuration list for PBXProject "Vent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26356C218A52F4B529665FE4 /* Debug */,
+				DAAE1E0E1B7A5AED167199F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D59BA0200CC8547FCF98E7C /* Build configuration list for PBXNativeTarget "Vent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B672A7DD5781FD0361D8B491 /* Debug */,
+				C922A8C7F45A58412716DFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93EC732F0AD5EF32E13E13E9 /* Project object */;
+}
