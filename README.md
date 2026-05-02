@@ -31,11 +31,15 @@ It uses **on-device AI** to analyze your emotions in real-time as you type, chan
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="Screenshots/positive_mood.png" width="250" alt="Positive Mood - Green Background" />
-  &nbsp;&nbsp;
-  <img src="Screenshots/negative_mood.png" width="250" alt="Negative Mood - Coral Background" />
-  &nbsp;&nbsp;
-  <img src="Screenshots/mood_checkin.png" width="250" alt="Mood Check-In" />
+  <img src="Screenshots/screenshot_1.png" width="200" alt="App Screenshot 1" />
+  &nbsp;
+  <img src="Screenshots/screenshot_2.png" width="200" alt="App Screenshot 2" />
+  &nbsp;
+  <img src="Screenshots/screenshot_3.png" width="200" alt="App Screenshot 3" />
+  &nbsp;
+  <img src="Screenshots/screenshot_4.png" width="200" alt="App Screenshot 4" />
+  &nbsp;
+  <img src="Screenshots/screenshot_5.png" width="200" alt="App Screenshot 5" />
 </p>
 
 ---
