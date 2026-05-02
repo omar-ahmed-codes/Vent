@@ -40,6 +40,12 @@ It uses **on-device AI** to analyze your emotions in real-time as you type, chan
   <img src="Screenshots/screenshot_5.png" width="200" alt="App Screenshot 5" />
 </p>
 
+<p align="center">
+  <img src="Screenshots/screenshot_6.png" width="200" alt="App Screenshot 6" />
+  &nbsp;
+  <img src="Screenshots/screenshot_7.png" width="200" alt="App Screenshot 7" />
+</p>
+
 ---
 
 ## 🔥 Top Features
